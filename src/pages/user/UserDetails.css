@@ -1,0 +1,15 @@
+.label-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 50%);
+    background-color: #3b82f6; /* Blue */
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+.label-icon:hover {
+    background-color: #2563eb; /* Darker blue */
+}
